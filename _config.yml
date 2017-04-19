@@ -1,0 +1,89 @@
+# Basic
+title: Mr.Mao
+#subtitle: 
+description: 一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。
+# 头像里面的标题
+avatarTitle: 永凡
+# 头像里面的描述
+avatarDesc: 持续集成 / 自动化
+url: "http://lilian.info"
+
+# Comment
+comment:
+    # disqus: lilian
+    duoshuo: leopard 
+
+# Social
+social:
+    #weibo: 2344041987
+    github: maoyongfan2
+    #gsite: liliandreamworld
+    csdn: maoyongfan3
+    # twitter: 
+    mail: 850447881@qq.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 7c428daff2760d60102aec565a5c731b
+    
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-97614726-1   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/dearLilian/dearLilian.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /blog/:year/:month/:title.html 
+
+markdown: kramdown
+
+
+kramdown:
+  input:  GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: true
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  syntax_highlighter: rouge
+
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 文章, description: archive, url: '/archive'}   
+    - {title: 分类, description: tags, url: '/tags'}
+    - {title: 留言, description: messages, url: '/messages'}
+    #- {title: 资源, description: links, url: '/links'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 10
+paginate_path: "page/:num/"
