@@ -1,16 +1,10 @@
-# dearLilian.github.io
+# Mr.Mao
 My personal blog
 
-<a href="http://lilian.info">lilian.info</a>
+<a href="http://lilian.info">maoyongfan.info</a>
 
 
-## 20170416 update
+## 20170419 update
 
-add three posts which are
-
-- git-on-linux
-- install-svn-on-linux
-- uget-on-linux
-- sublime-on-linux
-- java-on-linux
+first
 
