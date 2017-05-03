@@ -6,12 +6,14 @@ description: 一个人至少拥有一个梦想，有一个理由去坚强。心�
 avatarTitle: 永凡
 # 头像里面的描述
 avatarDesc: 持续集成 / 自动化
-url: "http://lilian.info"
+url: "http://maoyongfan.info"
 
 # Comment
 comment:
     # disqus: lilian
-    duoshuo: leopard 
+    #duoshuo: leopard 
+    #wangYi : efde0d7f65594e848b07e864eef824d0
+    changYan : cysYD9F6B
 
 # Social
 social:
